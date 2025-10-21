@@ -1,0 +1,13 @@
+torch~=2.1.0
+
+Pillow
+huggingface_hub
+numpy==1.24.4
+pytz
+transformers
+typed-argument-parser
+torchvision==0.16.2
+matplotlib
+tensorboard
+jupyter
+ipywidgets
