@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ## Training Scripts
 1. Train VQVAE
 ```
-torchrun --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=... train.py --bs=2048 --ep=1000 --fp16=1 --wpe=0.01 --data_path=... --flag_train_vae=True --pn=36 --tclip=1.0 --tblr=4e-5 --datasets_name=...
+torchrun --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=... train.py --bs=2048 --ep=1000 --fp16=1 --wpe=0.01 --data_path=... --vae_if_train=True --pn=36 --tclip=1.0 --tblr=4e-5 --datasets_name=...
 ```
 
 2. Train TAT (Thermohaline Autoregressive Transformer)
