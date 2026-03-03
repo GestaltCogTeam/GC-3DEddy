@@ -1,4 +1,4 @@
-# 3D Forecasting of Oceanic Mesoscale Eddies from Satellite Observations with Large Autoregressive Modeling
+# From Surface Observations to Subsurface Dynamics: Advanced 3D Oceanic Mesoscale Eddy Forecasting with Large Autoregressive Modeling
 
 ![GC-3DEddy](assets/GC-3DEddy.jpg)
 
